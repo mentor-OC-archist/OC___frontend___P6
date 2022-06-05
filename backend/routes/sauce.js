@@ -13,12 +13,12 @@ const multer = require('../middleware/multer-config');
 //     req.auth = {userId}
 // })
 
-router.post('/', multer, sauceCtrl.createSauce);
-router.post('/:id/like', multer, sauceCtrl.likeSauce);
-router.put('/:id', multer, sauceCtrl.modifySauce);
-router.delete('/:id', sauceCtrl.deleteSauce);
-router.get('/:id', sauceCtrl.getOneSauce);
-router.get('/', sauceCtrl.getAllSauces);
+router.post('/', auth, multer, sauceCtrl.createSauce);
+router.post('/:id/like', auth, multer, sauceCtrl.likeSauce);
+router.put('/:id', auth, multer, sauceCtrl.modifySauce);
+router.delete('/:id', auth, sauceCtrl.deleteSauce);
+router.get('/:id', auth, sauceCtrl.getOneSauce);
+router.get('/', auth, sauceCtrl.getAllSauces);
 
 
 // router.post('/ok', auth, multer, sauceCtrl.createSauce);

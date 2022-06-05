@@ -1,24 +1,29 @@
 const fs = require('fs');
-const Thing = require('../models/Sauce');
+const Sauce = require('../models/Sauce');
 
 
 exports.likeSauce = (req, res, next) => {
 }
 exports.createSauce = (req, res, next) => {
-  const thingObject = JSON.parse(req.body.thing)
-  delete thingObject._id
-  const thing = new Thing({
-    ...thingObject,
-    imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+  console.log(req.body.sauce);
+  const sauceObject = JSON.parse(req.body.sauce)
+  delete sauceObject._id
+  const sauce = new Sauce({
+    ...sauceObject
+    , imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+    , usersDisliked: []
+    , usersLiked: []
+    , likes: 0
+    , dislikes: 0
   })
-  // const thing = new Thing({
+  // const sauce = new Sauce({
   //   title: req.body.title,
   //   description: req.body.description,
   //   imageUrl: req.body.imageUrl,
   //   price: req.body.price,
   //   userId: req.body.userId
   // });
-  thing.save().then(
+  sauce.save().then(
     () => {
       res.status(201).json({
         message: 'Post saved successfully!'
@@ -27,18 +32,21 @@ exports.createSauce = (req, res, next) => {
   ).catch(
     (error) => {
       res.status(400).json({
-        error: error
+        message: error
       })
     }
   )
 }
 
 exports.getOneSauce = (req, res, next) => {
-  Thing.findOne({
+  Sauce.findOne({
     _id: req.params.id
   }).then(
-    (thing) => {
-      res.status(200).json(thing);
+    (sauce) => {
+      console.log(sauce);
+      sauce.usersLiked=[]
+      console.log(sauce);
+      res.status(200).json(sauce);
     }
   ).catch(
     (error) => {
@@ -50,13 +58,13 @@ exports.getOneSauce = (req, res, next) => {
 };
 
 exports.modifySauce = (req, res, next) => {
-  const thingObject = req.file 
+  const sauceObject = req.file 
     ? {
       ...JSON.parse(req.body.thing), 
       imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
     }
     : {...req.body}
-  // const thing = new Thing({
+  // const thing = new Sauce({
   //   _id: req.params.id,
   //   title: req.body.title,
   //   description: req.body.description,
@@ -64,10 +72,10 @@ exports.modifySauce = (req, res, next) => {
   //   price: req.body.price,
   //   userId: req.body.userId
   // });
-  Thing.updateOne({_id: req.params.id}, {...thingObject, _id: req.params.id}).then(
+  Sauce.updateOne({_id: req.params.id}, {...sauceObject, _id: req.params.id}).then(
     () => {
       res.status(201).json({
-        message: 'Thing updated successfully!'
+        message: 'Sauce updated successfully!'
       });
     }
   ).catch(
@@ -80,25 +88,25 @@ exports.modifySauce = (req, res, next) => {
 };
 
 exports.deleteSauce = (req, res, next) => {
-    Thing.findOne({ _id: req.params.id }).then(
-        (thing) => {
-            if (!thing) {
-                console.log("error, no 'thing' have been returned");
+    Sauce.findOne({ _id: req.params.id }).then(
+        (sauce) => {
+            if (!sauce) {
+                console.log("error, no 'sauce' have been returned");
                 res.status(404).json({
-                    error: new Error('No such Thing!')
+                    error: new Error('No such Sauce!')
                 });
             }
-            else if (thing.userId !== req.auth.userId) {
-                console.log("error, userId doesn't match\nthing.userId: "+thing.userId+" --- req.auth.userId: "+req.auth.userId);
+            else if (sauce.userId !== req.auth.userId) {
+                console.log("error, userId doesn't match\nthing.userId: "+sauce.userId+" --- req.auth.userId: "+req.auth.userId);
                 res.status(400).json({
                     error: new Error('Unauthorized request!')
                 });
             }
             else{
-                console.log("oh heyn its good, it did match!\nthing.userId: "+thing.userId+" --- req.auth.userId: "+req.auth.userId);
-                const filename = thing.imageUrl.split('/images/')[1];
+                console.log("oh heyn its good, it did match!\nthing.userId: "+sauce.userId+" --- req.auth.userId: "+req.auth.userId);
+                const filename = sauce.imageUrl.split('/images/')[1];
                 fs.unlink(`images/${filename}`, () => {
-                  Thing.deleteOne({ _id: req.params.id })
+                  Sauce.deleteOne({ _id: req.params.id })
                     .then(
                         () => {
                             res.status(200).json({
@@ -119,9 +127,10 @@ exports.deleteSauce = (req, res, next) => {
 };
 
 exports.getAllSauces = (req, res, next) => {
-  Thing.find().then(
-    (things) => {
-      res.status(200).json(things);
+  Sauce.find().then(
+    (sauces) => {
+      console.log(sauces);
+      res.status(200).json(sauces);
     }
   ).catch(
     (error) => {

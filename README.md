@@ -22,10 +22,10 @@
 - [Adoptez les API REST pour vos projets web](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web)
 
 ## LES RESSOURCES DU PROJET:
-- [Liste des ressources](https://openclassrooms.com/fr/projects/construisez-une-api-securisee-pour-une-application-davis-gastronomiques/resources "Site web officiel d'Express")
+- [Liste des ressources](https://openclassrooms.com/fr/projects/construisez-une-api-securisee-pour-une-application-davis-gastronomiques/resources)
 
     #### SITE WEB:
-    - [Utilisation d'Express](http://expressjs.com/fr/ )
+    - [Utilisation d'Express](http://expressjs.com/fr/ "Site web officiel d'Express")
 
     #### ARTICLE:
     - [Comment connecter et utiliser votre MongoDb avec Node.js](https://atinux.developpez.com/tutoriels/javascript/mongodb-nodejs-mongoose/ "Tutoriel par Sébastien Chopin (02/2013)")
