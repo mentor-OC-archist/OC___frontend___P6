@@ -1,8 +1,10 @@
 const fs = require('fs');
-const Thing = require('../models/Thing');
+const Thing = require('../models/Sauce');
 
 
-exports.createThing = (req, res, next) => {
+exports.likeSauce = (req, res, next) => {
+}
+exports.createSauce = (req, res, next) => {
   const thingObject = JSON.parse(req.body.thing)
   delete thingObject._id
   const thing = new Thing({
@@ -31,7 +33,7 @@ exports.createThing = (req, res, next) => {
   )
 }
 
-exports.getOneThing = (req, res, next) => {
+exports.getOneSauce = (req, res, next) => {
   Thing.findOne({
     _id: req.params.id
   }).then(
@@ -47,7 +49,7 @@ exports.getOneThing = (req, res, next) => {
   );
 };
 
-exports.modifyThing = (req, res, next) => {
+exports.modifySauce = (req, res, next) => {
   const thingObject = req.file 
     ? {
       ...JSON.parse(req.body.thing), 
@@ -77,7 +79,7 @@ exports.modifyThing = (req, res, next) => {
   );
 };
 
-exports.deleteThing = (req, res, next) => {
+exports.deleteSauce = (req, res, next) => {
     Thing.findOne({ _id: req.params.id }).then(
         (thing) => {
             if (!thing) {
@@ -116,7 +118,7 @@ exports.deleteThing = (req, res, next) => {
     )
 };
 
-exports.getAllStuff = (req, res, next) => {
+exports.getAllSauces = (req, res, next) => {
   Thing.find().then(
     (things) => {
       res.status(200).json(things);

@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
+const cors = require('cors');
 
 
 
@@ -8,7 +9,13 @@ const path = require('path');
 
 const app = express();
 
-const stuffRoutes = require('./routes/stuff');
+
+
+app.use(cors({origin:true,credentials: true}))
+
+
+
+const saucesRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user');
 
 
@@ -36,7 +43,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/api/stuff', stuffRoutes);
+app.use('/api/sauces', saucesRoutes);
 app.use('/api/auth', userRoutes);
 
 
