@@ -1,3 +1,136 @@
+# OC PROJET#5 [Construisez un site e-commerce en JavaScript](https://openclassrooms.com/fr/projects/construisez-un-site-e-commerce-en-javascript/assignment) DU PARCOURS ["DÉVELOPPEUR-WEB"](https://openclassrooms.com/fr/paths/185-developpeur-web#path-tabs): 
+
+Une vidéo d'introduction du projet par le mentor:
+
+[![INTRODUCTION MENTOR](https://raw.githubusercontent.com/achicyr/OC___frontend/master/assets/video_background.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX&list=PLWZ83QCrp6NsligPZowq4TBh03H4Ufy9w&ab_channel=Archist111 "Introduction du P5 par le mentor")
+
+[![DÉMONSTRATION MENTOR PCK66](https://raw.githubusercontent.com/achicyr/OC___frontend/master/assets/video_background.jpg)](https://www.youtube.com/watch?v=6VejVsCP7-s&ab_channel=Docstring "Démonstration du P6 par le mentor PCK66")
+
+LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION:
+- lien 1
+
+# MISSION REVISITÉ: 
+
+## LES RESSOURCES À INTÉGRER AU PROJET (3):
+1. [Le repository git du frontend (angularJS)](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6) à forker sur votre compte, puis cloner pour en faire faire la codebase de votre P6
+2. [Le debrief](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf)
+3. [Le plan de test d'acceptation](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P5/DW+P5+-+Modele+plan+tests+acceptation.xlsx)
+4. [Le step by step](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Guide+E%CC%81tapes+Cle%CC%81s_DW_P6.pdf)
+
+---
+
+## CI-APRÈS, JE VAIS: 
+1. [Lister les liens nécessaires pour réaliser le projet](https://github.com/achicyr/OC__frontend__P5#user-content-liens-necessaires),
+2. [Reformuler la mission sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P5#user-content-resume-mentor),
+3. [Fournir les liens & ressources que j'ai assemblé & créé (en tant que mentor) pour ce projet](https://github.com/achicyr/OC__frontend__P5#user-content-liens-mentor),
+4. [Enfin, fournir un step-by-step, ilustré en vidéo, et présenté sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P5#user-content-step-by-step)
+
+### I) LIENS NÉCESSAIRES: 
+
+### II) RÉSUMÉ MENTOR: 
+
+### III) LIENS MENTOR: 
+
+### IV)STEP-BY-STEP: 
+[Step-by-step ilustré en vidéo](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX&list=PLWZ83QCrp6NsligPZowq4TBh03H4Ufy9w&ab_channel=Archist111)
+
+---
+---
+---
+---
+---
+---
+
+
+## LES COURS DU PROJETS (3): (dans l'ordre d'importance)
+- [liste des cours](https://openclassrooms.com/fr/projects/construisez-une-api-securisee-pour-une-application-davis-gastronomiques/courses)
+- [Passez au Full Stack avec Node.js, Express et MongoDB](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb)
+    - [Branche GitHub dédié](https://github.com/achicyr/OC___frontend___P6/blob/___fulstack)
+    - [Mindmap]()
+    - [Dossier de favoris navigateur]()
+    - [Vidéo]()
+- [Sécurisez vos applications web avec l'OWASP](https://openclassrooms.com/fr/courses/6179306-securisez-vos-applications-web-avec-lowasp)
+    - [Branche GitHub dédié](https://github.com/achicyr/OC___frontend___P6/blob/___owasp)
+    - [Mindmap]()
+    - [Dossier de favoris navigateur]()
+    - [Vidéo]()
+- [Adoptez les API REST pour vos projets web](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web)
+    - [Branche GitHub dédié](https://github.com/achicyr/OC___frontend___P6/blob/___apiRest)
+    - [Mindmap]()
+    - [Dossier de favoris navigateur]()
+    - [Vidéo]()
+
+## LES RESSOURCES DU PROJET:
+- [Liste des ressources](https://openclassrooms.com/fr/projects/construisez-une-api-securisee-pour-une-application-davis-gastronomiques/resources "Site web officiel d'Express")
+
+    #### SITE WEB:
+    - [Utilisation d'Express](http://expressjs.com/fr/ )
+
+    #### ARTICLE:
+    - [Comment connecter et utiliser votre MongoDb avec Node.js](https://atinux.developpez.com/tutoriels/javascript/mongodb-nodejs-mongoose/ "Tutoriel par Sébastien Chopin (02/2013)")
+    - [Travailler avec des variables d'environnement](https://ichi.pro/fr/gerez-les-variables-d-environnement-dans-votre-application-nodejs-avec-dotenv-90198954812747 "Article sur ichi.pro")
+    - [Ce que sont les verbes de requêtes d'API](https://www.gekko.fr/les-bonnes-pratiques-a-suivre-pour-developper-des-apis-rest/ "Article sur gekko.fr (10/2019)")
+    - [Configuration de multer (1)](https://dev.to/aimalm/upload-single-file-in-node-js-using-express-and-multer-in-6-steps-4o9p "Contenu rédigé en anglais, par Aimal Maarij, 04/2021 (v2: 05/2021)")
+    - [Configuration de multer (2)](https://ichi.pro/fr/telecharger-un-fichier-avec-multer-dans-les-applications-node-js-208100977885636 "Article sur ichi.pro")
+    - [Les méthodes des tableaux expliquées](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/Arrays "Guide de Mozilla officiel")
+
+    #### LIVRE:
+    - [Ajout ou suppression d'un fichier de gitignore](https://alexgirard.com/git-book/intermediaire/git-ignore/ "§2.2 du livre Pro Git, par Scott Chacon et Ben Straub, traduit par Alex Girard")
+
+## LES RESSOURCES À INTÉGRER AU PROJET (3):
+- [Étapes clés – STEP BY STEP](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Guide+E%CC%81tapes+Cle%CC%81s_DW_P6.pdf)
+- [Le brief client](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf)
+- [La codebase (repo github à cloner)](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6)
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # OC PROJET 6 DU PARCOURS [FRONTEND-DÉVELOPEUR](https://openclassrooms.com/fr/paths/185-developpeur-web#path-tabs): 
 
 **<u>Github Page</u>**: https://achicyr.github.io/OC__frontend__P6
