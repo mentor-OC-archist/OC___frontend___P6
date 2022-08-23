@@ -6,8 +6,12 @@ Une vidéo d'introduction du projet par le mentor:
 
 [![DÉMONSTRATION MENTOR PCK66](https://raw.githubusercontent.com/achicyr/OC___frontend/master/assets/video_background.jpg)](https://www.youtube.com/watch?v=6VejVsCP7-s&ab_channel=Docstring "Démonstration du P6 par le mentor PCK66")
 
-LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION:
+## LES ÉTAPES DE L'INTRODUCTION: 
+1. ???
+## LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION:
 - lien 1
+
+****
 
 # MISSION REVISITÉ: 
 
@@ -20,16 +24,40 @@ LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION:
 ---
 
 ## CI-APRÈS, JE VAIS: 
-1. [Lister les liens nécessaires pour réaliser le projet](https://github.com/achicyr/OC__frontend__P5#user-content-liens-necessaires),
+1. [Lister les liens présents dans les différents cours du projet](https://github.com/achicyr/OC__frontend__P5#user-content-liens-necessaires),
 2. [Reformuler la mission sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P5#user-content-resume-mentor),
-3. [Fournir les liens & ressources que j'ai assemblé & créé (en tant que mentor) pour ce projet](https://github.com/achicyr/OC__frontend__P5#user-content-liens-mentor),
+3. [Fournir les liens & ressources que j'ai assemblé & créé (en tant que mentor) pour ce projet (mindmap,favoris,extensions VSCode,playlists youtube,lein web, etc..)](https://github.com/achicyr/OC__frontend__P5#user-content-liens-mentor),
 4. [Enfin, fournir un step-by-step, ilustré en vidéo, et présenté sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P5#user-content-step-by-step)
 
-### I) LIENS NÉCESSAIRES: 
+### I) LIENS UTILES (DES COURS DU PROJET): 
 
 ### II) RÉSUMÉ MENTOR: 
 
-### III) LIENS MENTOR: 
+### III) RESSOURCES MENTOR: 
+   - [Favoris browser repository](???)
+   #### Mindmaps: 
+       - [...autres...](???)
+   #### Playlists &video: 
+       - [???](???)
+       - [save object in file](https://www.youtube.com/shorts/tcHrC5mOJl0)
+   #### OS Software (Windows): 
+       - [The Postman app](https://www.postman.com/downloads/)
+   #### WebSites
+       - [???](???)
+   #### Browser extensions (Chrome): 
+        - [Disable Content-Security-Policy]()https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden/related)
+       - [Postman Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo)
+   ##### VSCode plugins: 
+   - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+       - [tuto](https://www.youtube.com/watch?v=RcxvrhQKv8I&ab_channel=BrianMorrison)
+   - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+   - [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
+       - [Mongodb-dly](https://marketplace.visualstudio.com/items?itemName=devlikeyou.mongodb-dly)
+   - [Nodejs Snippets](https://marketplace.visualstudio.com/items?itemName=abdoseadaa.node-js-snippet)
+       - [Mongo Snippets for Node-js](https://marketplace.visualstudio.com/items?itemName=roerohan.mongo-snippets-for-node-js)
+       - 
+
+    
 
 ### IV)STEP-BY-STEP: 
 [Step-by-step ilustré en vidéo](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX&list=PLWZ83QCrp6NsligPZowq4TBh03H4Ufy9w&ab_channel=Archist111)
@@ -59,6 +87,9 @@ LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION:
     - [Mindmap]()
     - [Dossier de favoris navigateur]()
     - [Vidéo]()
+## LES COURS ALTERNATIFS: 
+- [SQL](https://openclassrooms.com/fr/courses/6971126-implementez-vos-bases-de-donnees-relationnelles-avec-sql)
+- ;
 
 ## LES RESSOURCES DU PROJET:
 - [Liste des ressources](https://openclassrooms.com/fr/projects/construisez-une-api-securisee-pour-une-application-davis-gastronomiques/resources "Site web officiel d'Express")
