@@ -39,14 +39,20 @@ Une vidéo d'introduction du projet par le mentor:
        - [...autres...](???)
    #### Playlists &video: 
        - [???](???)
+       - [Learn ExpresJS in 35 minutes](https://www.youtube.com/watch?v=SccSCuHhOw0&ab_channel=WebDevSimplified)
+       - [MongoDB crash course](https://www.youtube.com/watch?v=ofme2o29ngU&ab_channel=WebDevSimplified)
        - [save object in file](https://www.youtube.com/shorts/tcHrC5mOJl0)
    #### OS Software (Windows): 
        - [The Postman app](https://www.postman.com/downloads/)
    #### WebSites
        - [???](???)
+       - [En-têtes HTTP](https://deeloper.mozilla.org/fr/docs/Web/HTTP/Headers)
+       - [Codes de réponse HTTP](https://developer.mozilla.org/fr/docs/Web/HTTP/Status)
+       - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
+       - [12 frameworks JavaScript populaires pour créer des API et des microservices](https://geekflare.com/fr/javascript-frameworks-for-api/)
    #### Browser extensions (Chrome): 
-        - [Disable Content-Security-Policy]()https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden/related)
-       - [Postman Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo)
+       - [Disable Content-Security-Policy]()https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden/related)
+       - [Talend API Tester - Free Edition](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm)
    ##### VSCode plugins: 
    - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
        - [tuto](https://www.youtube.com/watch?v=RcxvrhQKv8I&ab_channel=BrianMorrison)
